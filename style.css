@@ -1,0 +1,61 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&family=Fira+Code&family=Poppins:wght@500&family=Raleway&display=swap');
+
+/* common style and utility  */
+body {
+    font-family: 'Fira Code', monospace;
+    background-color: #F3F1FF;
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    height: 646px;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.top-banner {
+    background-color: #130f40;
+    border-radius: 30px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-heading {
+    font-weight: 700;
+    font-size: 70px;
+    color: white;
+    width: 531px;
+    height: 240px;
+}
+
+.banner-description {
+    font-size: 16px;
+    width: 506px;
+    height: 78px;
+    color: white;
+}
+
+.banner-button {
+    background-color: #DD0000;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 16px 25px;
+    color: white;
+    font-size: 20px;
+}
+
+.fa-circle-right {
+    color: white;
+    font-size: 20px;
+}
+
+.banner-image img {
+    width: 581px;
+    height: 613px;
+}

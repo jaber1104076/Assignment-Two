@@ -59,3 +59,159 @@ body {
     width: 581px;
     height: 613px;
 }
+
+/* main sectoion style */
+.fixure-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    background-color: white;
+    border-radius: 10px;
+    width: 252px;
+    padding: 10px 10px;
+    margin: 30px;
+    text-align: center;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+
+.colorize {
+    background-color: red;
+}
+
+nav {
+    width: 312px;
+    height: 312px;
+    margin-right: 90px;
+}
+
+.side-bar {
+    background-color: black;
+    width: 312px;
+    height: 280px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+/* Blog item design */
+.blog-button {
+    margin-top: 20px;
+    width: 100px;
+    height: 32px;
+    border-radius: 5px;
+}
+
+.blog-button a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+.Blog-description {
+    font-size: 18px;
+}
+
+.icons a {
+    font-size: 16px;
+    text-decoration: none;
+    color: gray;
+    width: 53px;
+    height: 26px;
+}
+
+.icon {
+    margin-left: 30px;
+}
+
+.top-games {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.top-games img {
+    width: 312px;
+    height: 175px;
+}
+
+.top-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 70px;
+    column-gap: 24px;
+
+
+}
+
+.body-area {
+    height: 800px;
+    width: 984px;
+
+}
+
+.main-section {
+    display: flex;
+}
+
+/* Extra part for Media  */
+.extra {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.extra-button {
+    background-color: #DD0000;
+    padding: 12px 29px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.extra-button a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+/*```````````````
+                   footer style      ----------*/
+footer {
+    background-color: #2f3640;
+    padding-bottom: 50px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.footer-head {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+hr {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.info {
+    color: #B9B9B9;
+    font-size: 16px;
+}
+
+.contack-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

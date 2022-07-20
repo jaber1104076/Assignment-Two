@@ -228,7 +228,19 @@ footer {
     justify-content: space-around;
 }
 
-@media only screen and (max-width: 600px) {
+.footer-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.common {
+    font-size: 30px;
+    color: white;
+}
+
+/* media query for mobile device */
+@media only screen and (max-width: 688px) {
     .container {
         width: 100%;
     }
@@ -236,12 +248,13 @@ footer {
     .banner {
         display: flex;
         flex-direction: column;
-
     }
 
     .side-bar {
         background-color: white;
         color: black;
+
+
     }
 
     .fixure-menu {
@@ -272,9 +285,81 @@ footer {
         align-items: center;
     }
 
+    .common {
+        margin-top: 10px;
+    }
 
+    .footer-icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
     .extra {
         display: none;
     }
+}
+
+/* media query for tab devices */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container {
+        width: 100%;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .banner-content img {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .side-bar {
+        background-color: white;
+        color: black;
+        height: 100%;
+    }
+
+    .main-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fixure-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center
+    }
+
+    .body-area {
+        width: 100%;
+        margin-bottom: 70px;
+        margin-left: 30px;
+    }
+
+    .info {
+        margin-left: 100px;
+    }
+
+    .contack-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+
 }

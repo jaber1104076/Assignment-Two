@@ -239,7 +239,9 @@ footer {
     color: white;
 }
 
-/* media query for mobile device */
+/*------------
+         Media query for Mobile device
+                                   ----------------------- */
 @media only screen and (max-width: 688px) {
     .container {
         width: 100%;
@@ -250,11 +252,13 @@ footer {
         flex-direction: column;
     }
 
+    .banner-heading {
+        font-size: 30px;
+    }
+
     .side-bar {
         background-color: white;
         color: black;
-
-
     }
 
     .fixure-menu {

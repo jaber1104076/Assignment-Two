@@ -42,6 +42,8 @@ body {
     padding: 16px 25px;
     color: white;
     font-size: 20px;
+    cursor: pointer;
+    t
 }
 
 .fa-circle-right {
@@ -158,6 +160,26 @@ nav {
 
 .main-section {
     display: flex;
+}
+
+/* Upcoming section Extra work */
+.oponent {
+    display: flex;
+    justify-content: center;
+}
+
+.oponent .games img {
+    margin-top: 70px;
+
+}
+
+.oponent h4 {
+    margin: 90px 10px 0 10px;
+}
+
+.icons {
+    color: gray;
+    text-align: center;
 }
 
 /* Extra part for Media  */
